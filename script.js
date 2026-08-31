@@ -27,7 +27,7 @@ const profile = {
 };
 
 const socialLinks = [
-  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/haritha-neelisetty-21b5681a' },
+  { name: 'LinkedIn', url: 'https://in.linkedin.com/in/haritha-neelisetty-21b5681a1' },
   { name: 'GitHub', url: 'https://github.com/Haritha-Neelis' },
   { name: 'Gmail', url: 'mailto:haritha.neelisetty@gmail.com' },
   { name: 'LeetCode', url: 'https://leetcode.com/u/180D0KuDMt/' },
