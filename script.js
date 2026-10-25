@@ -72,10 +72,15 @@ const focusData = [
 
 const projectData = [
      {
-    title: 'SD-WAN/ SD-LAN network management platform',
-    summary: 'An enterprise network management platform for monitoring, configuring, and managing SD-WAN and SD-LAN devices across multiple sites which includes features like device provisioning, network topology visualization,centeralized configuration, policy management,router status and performance analytics',
-    tags: ['Java', 'Microservices', 'Spring Boot', 'SQL', 'Kafka', 'Dashboard', 'RestApi', 'Networking']
-  },
+  title: 'Agentic RAG for Financial Document Intelligence',
+  summary: 'An enterprise GenAI application that analyzes financial reports, business documents, and policy information using Retrieval-Augmented Generation (RAG). Combines structured SQL queries with semantic retrieval to answer business questions, compare financial information, and generate context-grounded insights with source citations. Uses LangGraph to orchestrate query routing and multi-step retrieval workflows.',
+  tags: ['Python', 'RAG', 'LangChain', 'LangGraph', 'Milvus', 'LLMs', 'Text-to-SQL', 'Semantic Search', 'FastAPI'],
+},
+  {
+  title: 'Agentic RAG for Network Operations & Troubleshooting',
+  summary: 'A GenAI-powered network operations assistant that helps engineers investigate device alerts, connectivity issues, and SD-WAN tunnel failures. Retrieves relevant troubleshooting guides and device documentation, combines them with available network event and telemetry data, and generates evidence-based investigation summaries and recommended diagnostic steps. Uses LangGraph to orchestrate retrieval, evidence evaluation, and conditional query refinement.',
+  tags: ['Python', 'RAG', 'LangChain', 'LangGraph', 'Milvus', 'Ollama', 'Elasticsearch', 'Kafka', 'FastAPI', 'Network Automation'],
+},
   {
     title: 'Account Management enterprise application',
     summary: 'An enterprise-level banking application for managing customer accounts, including savings and current accounts, user onboarding, and digital banking services such as internet banking. The platform also handles business rules and validations for card usage, transaction limits, and account-level restrictions to ensure secure and compliant financial operations.',
