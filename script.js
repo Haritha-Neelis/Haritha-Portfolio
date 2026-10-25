@@ -7,23 +7,33 @@ const profile = {
    [ 'Developer by profession, Problem slover by nature, and an AI enthusiast in the making.',
     'Building scalable backend systems, exploring AI applications, and creating practical solutions that deliver real value.',
     'Currently diving into AI, LLMs, and RAG'],
-  skills: [
-    'Java',
-    'Spring Boot',
-    'Microservices',
-    'Kafka',
-    'Redis',
-    'Elasticsearch',
-    'SQL',
-    'Docker',
-    'CI/CD',
-    'Git',
-    'REST APIs',
-    'AI / LLM',
-    'Prompt Engineering',
-    'System Design',
-    'Product Thinking'
-  ]
+ skills: [
+  'Python',
+  'Generative AI',
+  'LLMs',
+  'Retrieval-Augmented Generation (RAG)',
+  'Agentic AI',
+  'LangChain',
+  'LangGraph',
+  'Prompt Engineering',
+  'Embeddings',
+  'Vector Databases',
+  'Milvus',
+  'ChromaDB',
+  'Ollama',
+  'FastAPI',
+  'Text-to-SQL',
+  'Semantic Search',
+  'SQL',
+  'Elasticsearch',
+  'REST APIs',
+  'Kafka',
+  'Docker',
+  'CI/CD',
+  'Git',
+  'System Design',
+  'Product Thinking'
+]
 };
 
 const socialLinks = [
@@ -36,16 +46,16 @@ const socialLinks = [
 
 const focusData = [
   {
-    title: 'Enterprise Application Design',
-    period: 'Core Focus',
-    description:
-      'Designing scalable backend systems with maintainable architecture, clean APIs, and business-first thinking.',
-    achievements: [
-      'Strong focus on Java, Spring Boot, microservices, and distributed system patterns.',
-      'Interested in building reliable products that can support real-world scale and complexity.',
-      'Passionate about enterprise-grade solutions with strong quality and maintainability.'
-    ]
-  },
+  title: 'GenAI & Enterprise Systems',
+  period: 'Core Focus',
+  description:
+    'Building intelligent enterprise applications by combining Generative AI, agentic RAG pipelines, and scalable backend systems.',
+  achievements: [
+    'Focused on Python, LLMs, RAG, LangChain, LangGraph, and vector search for context-aware AI applications.',
+    'Experienced in enterprise networking, REST APIs, Kafka, Elasticsearch, and event-driven integrations.',
+    'Passionate about developing reliable AI-powered solutions with grounded responses, efficient retrieval, and maintainable architecture.'
+  ]
+},
   {
     title: 'AI-powered Product Thinking',
     period: 'Learning & Building',
